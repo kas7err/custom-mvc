@@ -1,0 +1,13 @@
+{
+    "require": {
+        "jenssegers/blade": "^1.3",
+        "bephp/activerecord": "^2.2",
+        "illuminate/database": "^7.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    }
+}
